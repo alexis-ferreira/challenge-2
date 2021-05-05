@@ -1,8 +1,3 @@
-
-/* font-family: 'Spartan', sans-serif; */
-
-
-
 /* -------- GENERAL -------- */
 
 body
@@ -13,12 +8,6 @@ body
 
 
 /* ---------- MAIN ----------- */
-
-main section
-{
-    /* background-image: url(/img/bg-pattern-top-desktop.svg);
-    background-size: 100%; */
-}
 
 main section>.container
 {
@@ -196,4 +185,166 @@ main section .container>.bottomDiv>.avis>.avis2
 main section .container>.bottomDiv>.avis>.avis3
 {
     margin-top: 30px;
+}
+
+
+/* ----------- MEDIA QUERYS ------------ */
+
+
+
+@media screen AND (max-width: 425px) {
+    
+    main section>.container {
+        padding: 300px 100px 0 100px;
+    }
+
+    main section>.container>.topDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section>.container>.topDiv>.description>h2 {
+        font-size: 90px;
+        font-weight: 700;
+
+        text-align: center;
+        
+        color: #502050;
+
+        margin: 15px 0;
+    }
+
+    main section>.container>.topDiv>.description {
+        width: 100%;
+    }
+
+    main section>.container>.topDiv>.description>p {
+        font-size: 44px;
+
+        margin-top: 50px;
+
+        color: hsl(303, 10%, 53%);
+
+        line-height: 60px;
+
+        text-align: center;
+
+        margin-bottom: 100px;
+    }
+
+    main section>.container>.topDiv>.view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 90%;
+    }
+
+    main section>.container>.topDiv>.view>.viewStars1 {
+        margin: 20px 0;
+
+        padding: 20px 0;
+
+        width: 100%;
+    }
+
+    main section>.container>.topDiv>.view>.viewStars2 {
+        margin: 20px 0;
+
+        padding: 20px 0;
+
+        width: 100%;
+    }
+
+    main section>.container>.topDiv>.view>.viewStars3{
+        margin: 20px 0;
+
+        padding: 20px 0;
+
+        width: 100%;
+    }
+
+    main section>.container>.topDiv>.view>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        height: 150px;
+
+        background-color: #F7F2F7;
+        border-radius: 10px;
+
+        margin: 0;
+
+        width: 100%;   
+    }
+
+    main section>.container>.topDiv>.view>div>p {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    main section>.container>.topDiv>.view>div>.stars {
+        background-image: url(/img/icon-star.svg);
+        background-size: 40px;
+        background-repeat: space;
+        background-position: center;
+
+        height: 35px;
+        width: 239px;
+    }
+
+    main section .container>.bottomDiv {
+        padding: 110px 0;
+    }
+
+    main section .container>.bottomDiv>.avis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .container>.bottomDiv>.avis>div {
+        width: 90%;
+        height: 600px;
+
+        background-color: #502050;
+
+        border-radius: 20px;
+    }
+
+    main section .container>.bottomDiv>.avis>.avis2 {
+        margin-top: 40px;
+    }
+
+    main section .container>.bottomDiv>.avis>.avis3 {
+        margin-top: 40px;
+    }
+
+    main section .container>.bottomDiv>.avis>div>.user>img {
+        border-radius: 50px;
+
+        width: 100px;
+    }
+
+    main section .container>.bottomDiv>.avis>div>.user>.name {
+        margin-left: 50px;
+
+        font-size: 30px;
+    }
+
+    main section .container>.bottomDiv>.avis>div>.user {
+        display: flex;
+        align-items: center;
+
+        padding: 100px 0 80px 70px;
+    }
+
+    main section .container>.bottomDiv>.avis>div>p {
+        color: white;
+        font-size: 35px;
+        padding: 0 70px;
+        line-height: 40px;
+    }
 }
