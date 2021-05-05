@@ -1,0 +1,199 @@
+
+/* font-family: 'Spartan', sans-serif; */
+
+
+
+/* -------- GENERAL -------- */
+
+body
+{
+    font-family: 'Spartan', sans-serif;
+}
+
+
+
+/* ---------- MAIN ----------- */
+
+main section
+{
+    /* background-image: url(/img/bg-pattern-top-desktop.svg);
+    background-size: 100%; */
+}
+
+main section>.container
+{
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px 100px 0 100px;
+
+    width: 1000px;
+
+    margin: 0 auto;
+}
+
+main section>.container>.topDiv
+{
+    display: flex;
+}
+
+main section>.container>.topDiv>.description
+{
+    width: 34%;
+}
+
+main section>.container>.topDiv>.description>h2
+{
+    font-size: 40px;
+    font-weight: 700;
+
+    color: #502050;
+
+    margin: 15px 0;
+}
+
+main section>.container>.topDiv>.description>p
+{
+    font-size: 13px;
+
+    color: hsl(303, 10%, 53%);
+
+    line-height: 20px;
+}
+
+main section>.container>.topDiv>.view
+{
+    width: 66%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main section>.container>.topDiv>.view>div
+{
+    display: flex;
+    align-items: center;
+
+    height: 50px;
+    width: 350px;
+
+    padding-left: 28px;
+
+    background-color: #F7F2F7;
+
+    border-radius: 10px;
+
+    margin: 7px 0;
+}
+
+main section>.container>.topDiv>.view>div>.stars
+{
+    background-image: url(/img/icon-star.svg);
+    background-size: 13px;
+    background-repeat: space;
+    background-position: center;
+
+    height: 15px;
+    width: 77px;
+
+    margin-right: 20px;
+}
+
+main section>.container>.topDiv>.view>div>p
+{
+    font-size: 13px;
+    font-weight: 600;
+
+    margin-top: 3px;
+
+    color: #502050;
+}
+
+main section>.container>.topDiv>.view>.viewStars1
+{
+    margin-right: 100px;
+}
+
+main section>.container>.topDiv>.view>.viewStars2
+{
+    margin-right: 50px;
+}
+
+main section .container>.bottomDiv
+{
+    padding: 80px 0;
+}
+
+main section .container>.bottomDiv>.avis
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+main section .container>.bottomDiv>.avis>div
+{
+    width: 31%;
+    height: 200px;
+
+    background-color: #502050;
+
+    border-radius: 10px;
+}
+
+main section .container>.bottomDiv>.avis>div>.user
+{
+    display: flex;
+    align-items: center;
+
+    padding: 30px 0 20px 30px;
+
+    font-size: 12px;
+}
+
+main section .container>.bottomDiv>.avis>div>.user>img
+{
+    border-radius: 50px;
+
+    width: 40px;
+}
+
+main section .container>.bottomDiv>.avis>div>.user>.name>h4
+{
+    color: white;
+
+    font-weight: 600;
+
+    margin-bottom: 8px;
+}
+
+main section .container>.bottomDiv>.avis>div>.user>.name
+{
+    margin-left: 20px;
+}
+main section .container>.bottomDiv>.avis>div>.user>.name>p
+{
+    color: #EF68A3;
+}
+
+main section .container>.bottomDiv>.avis>div>p
+{
+    color: white;
+
+    font-size: 11px;
+
+    padding: 0 30px 30px;
+
+    line-height: 20px;
+}
+
+main section .container>.bottomDiv>.avis>.avis2
+{
+    margin-top: 15px;
+}
+
+main section .container>.bottomDiv>.avis>.avis3
+{
+    margin-top: 30px;
+}
