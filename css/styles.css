@@ -79,7 +79,7 @@ main section>.container>.topDiv>.view>div
 
 main section>.container>.topDiv>.view>div>.stars
 {
-    background-image: url(/img/icon-star.svg);
+    background-image: url(../img/icon-star.svg);
     background-size: 13px;
     background-repeat: space;
     background-position: center;
@@ -286,7 +286,7 @@ main section .container>.bottomDiv>.avis>.avis3
     }
 
     main section>.container>.topDiv>.view>div>.stars {
-        background-image: url(/img/icon-star.svg);
+        background-image: url(../img/icon-star.svg);
         background-size: 40px;
         background-repeat: space;
         background-position: center;
